@@ -1,5 +1,5 @@
 /*
- ChapterProgram1.cpp
+ Chapter1Program1.cpp
  Programmer:Charles Sherwood
  Date:01/25
  Requirements:
