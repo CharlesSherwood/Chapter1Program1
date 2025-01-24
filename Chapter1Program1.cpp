@@ -29,7 +29,7 @@ int main()
 
 	//Display it onto the monitor
 	cout << "You have earned $" << pay << endl;
-	return 0;
+	return ;
 	
 
 }
