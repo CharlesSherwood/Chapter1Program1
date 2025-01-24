@@ -21,11 +21,13 @@ int main()
 	//how many hours worked
 	cout << "How many hours did you work this week?";
 	cin >> hours;
+	cout << "You have worked " << hours <<" hours"<< endl;
+
 
 	//Whats the hourly payrate
 	cout << "How much do you make per hour?";
 	cin >> rate;
-
+	cout << "You get paid $" << rate << endl;
 
 	//Calculate how much the Grosspay is
 	pay = hours * rate;
