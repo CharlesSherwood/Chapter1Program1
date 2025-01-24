@@ -27,7 +27,7 @@ int main()
 	//Whats the hourly payrate
 	cout << "How much do you make per hour?";
 	cin >> rate;
-	cout << "You get paid $" << rate << endl;
+	cout << "At a rate of $" << rate << endl;
 
 	//Calculate how much the Grosspay is
 	pay = hours * rate;
