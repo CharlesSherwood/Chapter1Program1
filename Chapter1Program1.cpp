@@ -10,10 +10,13 @@ it on the monitor.
 
 #include <iostream>
 using namespace std;
+#include <iomanip>
 
 int main()
 {
 	double hours, rate, pay;
+	
+
 
 	//how many hours worked
 	cout << "How many hours did you work this week?";
@@ -28,7 +31,7 @@ int main()
 	pay = hours * rate;
 
 	//Display it onto the monitor
-	cout << "You have earned $" << pay << endl;
+	cout<<fixed<<setprecision(2)<< "You have earned a total of $" << pay << endl;
 	return 0;
 	
 
